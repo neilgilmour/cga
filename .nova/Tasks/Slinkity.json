@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npx slinkity"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "npx slinkity --serve --incremental"
+    }
+  },
+  "identifier" : "E383D3B5-5618-42E5-9412-D1A8AB439372",
+  "openLogOnRun" : "fail"
+}
